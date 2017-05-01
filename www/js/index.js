@@ -118,6 +118,7 @@ function getCurrentlocation() {
 
             setMapToCurrentLocation();
             updatePosition();
+            getStopLocations()
 
         },
         function (err) {
@@ -136,17 +137,17 @@ function getStopLocations() {
         headers: {"Authorization": localStorage.authtoken},
         url: HOST + URLS["getStops"]
     }).done(function (data, status, xhr) {
-        var myData = JSON.parse(data.results);
-        for (stop in stops){
-            var stop = stops[stop];
+        var stops = JSON.parse(data.data.results);
+        for (var count = 0; count < stops.length; count ++){
+            var stop = stops[count];
             var id = stop.stopid;
             var name = stop.shortname;
             var lat = stop.latitude;
             var long = stop.longitude;
             var latLng = L.latLng(lat, long);
             
-            var popupContent = "id: <b>" + id + "</b><br>" + "Name: <b>" + name + "</b>";
-            L.marker(latLng).addTo(map).bindPopup(popupContent);
+            var stopInfo = "id: <b>" + id + "</b><br>" + "Name: <b>" + name + "</b>";
+            L.marker(latLng).addTo(map).bindPopup(stopInfo);
         }
     }).fail(function (xhr, status, error) {
         $(".sp-username").html("");
