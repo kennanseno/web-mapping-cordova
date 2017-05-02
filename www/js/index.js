@@ -137,13 +137,13 @@ function getStopLocations() {
         headers: {"Authorization": localStorage.authtoken},
         url: HOST + URLS["getStops"]
     }).done(function (data, status, xhr) {
-        var stops = JSON.parse(data.data.results);
+        var data = JSON.parse(data.data);
+        var stops = data.results;
         for (var count = 0; count < stops.length; count ++){
-            var stop = stops[count];
-            var id = stop.stopid;
-            var name = stop.shortname;
-            var lat = stop.latitude;
-            var long = stop.longitude;
+            var id = stops[count].stopid;
+            var name = stops[count].shortname;
+            var lat = stops[count].latitude;
+            var long = stops[count].longitude;
             var latLng = L.latLng(lat, long);
             
             var stopInfo = "id: <b>" + id + "</b><br>" + "Name: <b>" + name + "</b>";
