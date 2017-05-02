@@ -20,10 +20,10 @@ function onDeviceReady() {
     $("#btn-login").on("touchstart", loginPressed);
     $("#sp-logout").on("touchstart", logoutPressed);
 
-    if (localStorage.lastUserName && localStorage.lastUserPwd) {
-        $("#in-username").val(localStorage.lastUserName);
-        $("#in-password").val(localStorage.lastUserPwd);
-    }
+//    if (localStorage.lastUserName && localStorage.lastUserPwd) {
+//        $("#in-username").val(localStorage.lastUserName);
+//        $("#in-password").val(localStorage.lastUserPwd);
+//    }
 
     $(document).on("pagecreate", "#map-page", function (event) {
         console.log("In pagecreate. Target is " + event.target.id + ".");
@@ -32,6 +32,10 @@ function onDeviceReady() {
             getCurrentlocation();
         });
 
+        $("#get-buslocations").on("touchstart", function () {
+            getStopLocations();
+        });
+                   
         $("#map-page").enhanceWithin();
 
         makeBasicMap();
@@ -118,7 +122,6 @@ function getCurrentlocation() {
 
             setMapToCurrentLocation();
             updatePosition();
-            getStopLocations()
 
         },
         function (err) {

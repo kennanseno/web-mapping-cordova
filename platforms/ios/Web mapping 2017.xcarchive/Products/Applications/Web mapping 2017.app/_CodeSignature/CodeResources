@@ -86,7 +86,7 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		F24ibZqBQrLvL5/07HWNSa9qK/8=
+		C6mow4YutSykk/gvgDsUC4BL78U=
 		</data>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -94,7 +94,7 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		TSYsxiyMzoYah+cdxNRC/8XFNcE=
+		nQBDukHAkWQOr05AaYPgIbJkh58=
 		</data>
 		<key>CDVNotification.bundle/beep.wav</key>
 		<data>
@@ -162,7 +162,7 @@
 		</data>
 		<key>MainViewController.nib</key>
 		<data>
-		9dTs9Q0SFHPpV/RaP+VwrQHlQ38=
+		4xDAVjMZDNjmUKdGWoj9i623ERw=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -3282,11 +3282,11 @@
 		</data>
 		<key>www/index.html</key>
 		<data>
-		aQzyUDIaqGUUM7ctWg4XtRJ1v4E=
+		Bw4E5tL0kDffofhZsXWH3ceD9/g=
 		</data>
 		<key>www/js/index.js</key>
 		<data>
-		PYkJ6R6kaOz+VCrjwqZX0xlG2hs=
+		amQeydhm61StnL+URuz6J7hgGcw=
 		</data>
 		<key>www/plugins/cordova-plugin-device/www/device.js</key>
 		<data>
@@ -3539,11 +3539,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			F24ibZqBQrLvL5/07HWNSa9qK/8=
+			C6mow4YutSykk/gvgDsUC4BL78U=
 			</data>
 			<key>hash2</key>
 			<data>
-			Lie4c8yYXw2QNDT8L9/OF6L7g3+fFawI/1z3a6oC7BE=
+			m9j5cDrJUZU+bJkvhYtp/rRR6H7VvIwpra7LacG4V0Y=
 			</data>
 		</dict>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
@@ -3561,11 +3561,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			TSYsxiyMzoYah+cdxNRC/8XFNcE=
+			nQBDukHAkWQOr05AaYPgIbJkh58=
 			</data>
 			<key>hash2</key>
 			<data>
-			L14Oin9RTjKAdxuirthlwGk8J0EypmUR7dHkCW+Ljkk=
+			ouIKD+CO6t6+gtgP3/L6S2ilxh8QnyQqhQCjO27sbMo=
 			</data>
 		</dict>
 		<key>CDVNotification.bundle/beep.wav</key>
@@ -3737,11 +3737,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9dTs9Q0SFHPpV/RaP+VwrQHlQ38=
+			4xDAVjMZDNjmUKdGWoj9i623ERw=
 			</data>
 			<key>hash2</key>
 			<data>
-			Xnxuc2T8y0DDEeex2i2DQrl9b6U/Hfkltl7OuzIMJho=
+			gRyE/D5SrGMa2Y58ZgGlRNctAnUfS36QJ+z3JkFGrsM=
 			</data>
 		</dict>
 		<key>archived-expanded-entitlements.xcent</key>
@@ -12306,22 +12306,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			aQzyUDIaqGUUM7ctWg4XtRJ1v4E=
+			Bw4E5tL0kDffofhZsXWH3ceD9/g=
 			</data>
 			<key>hash2</key>
 			<data>
-			JSWH2xjmkH8o3MWYSnb6+bGNGcIMcUxEvIDVxSDQPdI=
+			bKlCmnurZ1AfqcEp2IrG7MAjmkja0xpDV8OF4TeCZL4=
 			</data>
 		</dict>
 		<key>www/js/index.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			PYkJ6R6kaOz+VCrjwqZX0xlG2hs=
+			amQeydhm61StnL+URuz6J7hgGcw=
 			</data>
 			<key>hash2</key>
 			<data>
-			8lQRLd3xF6UZojUygkQnlvUsgVNC7irXjJU4UgcXhPw=
+			xVGYUekwU/CzgVLnP+WKC9egysOdwEm7879v+yBRNSQ=
 			</data>
 		</dict>
 		<key>www/plugins/cordova-plugin-device/www/device.js</key>
