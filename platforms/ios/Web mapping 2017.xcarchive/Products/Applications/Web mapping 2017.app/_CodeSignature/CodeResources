@@ -86,7 +86,7 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		C6mow4YutSykk/gvgDsUC4BL78U=
+		ZiIMr5iAFgoWvvqD09QSas+ogDY=
 		</data>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -94,7 +94,7 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		nQBDukHAkWQOr05AaYPgIbJkh58=
+		aQuv9pOpTJMnlqxnY/ZPtEdgkU4=
 		</data>
 		<key>CDVNotification.bundle/beep.wav</key>
 		<data>
@@ -162,7 +162,7 @@
 		</data>
 		<key>MainViewController.nib</key>
 		<data>
-		4xDAVjMZDNjmUKdGWoj9i623ERw=
+		jKTLTBshVWou3QxGt8pScZ6Q0y8=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -3286,7 +3286,7 @@
 		</data>
 		<key>www/js/index.js</key>
 		<data>
-		amQeydhm61StnL+URuz6J7hgGcw=
+		yFOvQ/XK9xkMFgW4nncnwxtRkWQ=
 		</data>
 		<key>www/plugins/cordova-plugin-device/www/device.js</key>
 		<data>
@@ -3539,11 +3539,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			C6mow4YutSykk/gvgDsUC4BL78U=
+			ZiIMr5iAFgoWvvqD09QSas+ogDY=
 			</data>
 			<key>hash2</key>
 			<data>
-			m9j5cDrJUZU+bJkvhYtp/rRR6H7VvIwpra7LacG4V0Y=
+			VLxFn9L/Ey7h0ZfBa5KYIUDV3lbLYA4Wax0LfaT6Mb8=
 			</data>
 		</dict>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
@@ -3561,11 +3561,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			nQBDukHAkWQOr05AaYPgIbJkh58=
+			aQuv9pOpTJMnlqxnY/ZPtEdgkU4=
 			</data>
 			<key>hash2</key>
 			<data>
-			ouIKD+CO6t6+gtgP3/L6S2ilxh8QnyQqhQCjO27sbMo=
+			QclXQT31L5hESXX4JsJjbCFGgqDZ7UFWBO71hVFgwTw=
 			</data>
 		</dict>
 		<key>CDVNotification.bundle/beep.wav</key>
@@ -3737,11 +3737,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4xDAVjMZDNjmUKdGWoj9i623ERw=
+			jKTLTBshVWou3QxGt8pScZ6Q0y8=
 			</data>
 			<key>hash2</key>
 			<data>
-			gRyE/D5SrGMa2Y58ZgGlRNctAnUfS36QJ+z3JkFGrsM=
+			6SLOn6XnTJGCSoe8cwrw6Xbrwsor5j2FP+ryKoEc6Qk=
 			</data>
 		</dict>
 		<key>archived-expanded-entitlements.xcent</key>
@@ -12317,11 +12317,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			amQeydhm61StnL+URuz6J7hgGcw=
+			yFOvQ/XK9xkMFgW4nncnwxtRkWQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			xVGYUekwU/CzgVLnP+WKC9egysOdwEm7879v+yBRNSQ=
+			hodnkcN+H6gRsgdyP60q2hNXt7Pc4ClypAUWyiS0g7w=
 			</data>
 		</dict>
 		<key>www/plugins/cordova-plugin-device/www/device.js</key>

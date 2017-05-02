@@ -142,14 +142,23 @@ function getStopLocations() {
     }).done(function (data, status, xhr) {
         var data = JSON.parse(data.data);
         var stops = data.results;
-        for (var count = 0; count < stops.length; count ++){
+        for (var count = 0; count < stops.length; count++){
             var id = stops[count].stopid;
             var name = stops[count].shortname;
             var lat = stops[count].latitude;
             var long = stops[count].longitude;
             var latLng = L.latLng(lat, long);
             
-            var stopInfo = "id: <b>" + id + "</b><br>" + "Name: <b>" + name + "</b>";
+            var stopInfo = "id: <b>" + id + "</b><br>" + "Name: <b>" + name + "</b><br>Routes: <b>";
+            var busRoutes = stops[count].operators[0].routes;
+            for (var index = 0; index < busRoutes.length; index++){
+                stopInfo += busRoutes[index];
+                if(index < busRoutes.length - 1) {
+                    stopInfo += ",";
+                }
+            }
+            stopInfo += "</b>";
+            
             L.marker(latLng).addTo(map).bindPopup(stopInfo);
         }
     }).fail(function (xhr, status, error) {
