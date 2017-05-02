@@ -86,7 +86,7 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		0tsKzHS7Dn8hfnsyQMUvSctPPRQ=
+		cZ40hflJeknizpjDdBUyblIew8Y=
 		</data>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -94,7 +94,7 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		L2I14RAeW0/+GAMHvemXj08xHfc=
+		stjeRhk/qOjmO+6urI1zWj7dvzU=
 		</data>
 		<key>CDVNotification.bundle/beep.wav</key>
 		<data>
@@ -162,7 +162,7 @@
 		</data>
 		<key>MainViewController.nib</key>
 		<data>
-		ToHp4fWpohZZ4gH7xK5jgY58fSU=
+		u9FQBPIBaeAxG9QGNFayi2cnPDQ=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -3240,6 +3240,186 @@
 		<data>
 		Qzg22n4BXy6z/DhoF96It4JI9u8=
 		</data>
+		<key>www/external/leaflet-routing-machine-3.2.5/CHANGELOG.md</key>
+		<data>
+		Sa41DY05SKGGs+Wm4k+z6e32Ryg=
+		</data>
+		<key>www/external/leaflet-routing-machine-3.2.5/LICENSE.md</key>
+		<data>
+		5n4hTdrupYUlj/W52MWKowl7OV8=
+		</data>
+		<key>www/external/leaflet-routing-machine-3.2.5/README.md</key>
+		<data>
+		FAUUChwu/VGm3Jsa2hoMrK9Xc6A=
+		</data>
+		<key>www/external/leaflet-routing-machine-3.2.5/bower.json</key>
+		<data>
+		QdbsZ/tgyTvff2sW5LM+SQLQrVk=
+		</data>
+		<key>www/external/leaflet-routing-machine-3.2.5/dist/leaflet-routing-machine.css</key>
+		<data>
+		Y4Cq7Ti8jlVfK8R91QFOy3Pkn8Y=
+		</data>
+		<key>www/external/leaflet-routing-machine-3.2.5/dist/leaflet-routing-machine.js</key>
+		<data>
+		4k3ygnozbxNQUBkzsJ590h8psMA=
+		</data>
+		<key>www/external/leaflet-routing-machine-3.2.5/dist/leaflet-routing-machine.min.js</key>
+		<data>
+		cak1XABs/U8uQKqyM4dPqfwQ9ho=
+		</data>
+		<key>www/external/leaflet-routing-machine-3.2.5/dist/leaflet.routing.icons.png</key>
+		<data>
+		nZ9tPiwoLi8E0AfgZrDVLTMmbUk=
+		</data>
+		<key>www/external/leaflet-routing-machine-3.2.5/dist/leaflet.routing.icons.svg</key>
+		<data>
+		avfmB2dNZ6zMOKiR6yZKJPx4Mg8=
+		</data>
+		<key>www/external/leaflet-routing-machine-3.2.5/dist/routing-icon.png</key>
+		<data>
+		QVdDRKk1Zxs6IQx67daertO30oI=
+		</data>
+		<key>www/external/leaflet-routing-machine-3.2.5/examples/Control.Geocoder.js</key>
+		<data>
+		IoRS1YqnNhTZEgnhQ8JIGuSwfXc=
+		</data>
+		<key>www/external/leaflet-routing-machine-3.2.5/examples/config.js</key>
+		<data>
+		5PulDbycaWCfok0mIdouJ8+Tpec=
+		</data>
+		<key>www/external/leaflet-routing-machine-3.2.5/examples/index.css</key>
+		<data>
+		RD/NCd1UccyUgOoRf2XDd/gLhBM=
+		</data>
+		<key>www/external/leaflet-routing-machine-3.2.5/examples/index.html</key>
+		<data>
+		I1cZz72uJK+M8I57VCMAdkclJKg=
+		</data>
+		<key>www/external/leaflet-routing-machine-3.2.5/examples/index.js</key>
+		<data>
+		lC+HkedKOKP5fpgOrsRrrSvhd7k=
+		</data>
+		<key>www/external/leaflet-routing-machine-3.2.5/examples/localized.html</key>
+		<data>
+		osVo5IB5f/1G1w8S9u+iNQ3PI4U=
+		</data>
+		<key>www/external/leaflet-routing-machine-3.2.5/examples/localized.js</key>
+		<data>
+		b6tFNyMpZhuRtwyAaoGHTZbKPlI=
+		</data>
+		<key>www/external/leaflet-routing-machine-3.2.5/examples/mapbox.html</key>
+		<data>
+		tJhvrbR0lT7PduvGgJNEn5319Kg=
+		</data>
+		<key>www/external/leaflet-routing-machine-3.2.5/examples/mapbox.js</key>
+		<data>
+		4vPL+jOn+xqWWw0GljfckDmuwYc=
+		</data>
+		<key>www/external/leaflet-routing-machine-3.2.5/package.json</key>
+		<data>
+		Gv/6LXlBzSGkva0I+REfhm54rlY=
+		</data>
+		<key>www/external/leaflet-routing-machine-3.2.5/scripts/publish.sh</key>
+		<data>
+		9pBWnix3PA1GYxC+utmuhoyqR2k=
+		</data>
+		<key>www/external/leaflet-routing-machine-3.2.5/src/autocomplete.js</key>
+		<data>
+		RIRnPdGQnmSrBrUkZ2X5Bnr5v8Q=
+		</data>
+		<key>www/external/leaflet-routing-machine-3.2.5/src/control.js</key>
+		<data>
+		fasmDmed5BbzrwkSrDsxoP1nhsc=
+		</data>
+		<key>www/external/leaflet-routing-machine-3.2.5/src/error-control.js</key>
+		<data>
+		lhZjl1e0lE65u7QdKmZKMyvOQxA=
+		</data>
+		<key>www/external/leaflet-routing-machine-3.2.5/src/formatter.js</key>
+		<data>
+		mOPQ8yg5GN68x+MPpkUspHbnLEQ=
+		</data>
+		<key>www/external/leaflet-routing-machine-3.2.5/src/geocoder-element.js</key>
+		<data>
+		2PYQ5zKQ26inpOmTN2Cek0dzQ30=
+		</data>
+		<key>www/external/leaflet-routing-machine-3.2.5/src/index.js</key>
+		<data>
+		Us7OzHsKr5bhSPPvi+ucg8gjPEw=
+		</data>
+		<key>www/external/leaflet-routing-machine-3.2.5/src/itinerary-builder.js</key>
+		<data>
+		oTbCTRg67u2ePT/JWpRgxPRUQys=
+		</data>
+		<key>www/external/leaflet-routing-machine-3.2.5/src/itinerary.js</key>
+		<data>
+		euvbAd2DKkd2VEeeDi+sz3LBYzU=
+		</data>
+		<key>www/external/leaflet-routing-machine-3.2.5/src/line.js</key>
+		<data>
+		+FhLd74+3HO+oVj0Hito92O5GyE=
+		</data>
+		<key>www/external/leaflet-routing-machine-3.2.5/src/localization.js</key>
+		<data>
+		tTJY6JaSELdiQrL3z75oJYXeLCw=
+		</data>
+		<key>www/external/leaflet-routing-machine-3.2.5/src/mapbox.js</key>
+		<data>
+		j1kThBG/RXVhJJVRGFlDkGfpbhI=
+		</data>
+		<key>www/external/leaflet-routing-machine-3.2.5/src/osrm-v1.js</key>
+		<data>
+		HXwnZeNAB5jaPsyUuGsijzyAMxo=
+		</data>
+		<key>www/external/leaflet-routing-machine-3.2.5/src/osrm.js</key>
+		<data>
+		2kfoBTJKwenTmWjKejlxFbNUaIA=
+		</data>
+		<key>www/external/leaflet-routing-machine-3.2.5/src/plan.js</key>
+		<data>
+		ZAqi7YbNzji0DcCIH2UTBklLL5Q=
+		</data>
+		<key>www/external/leaflet-routing-machine-3.2.5/src/waypoint.js</key>
+		<data>
+		a/eQEYHbmjL7Vk5ooVMvQNq8U6g=
+		</data>
+		<key>www/external/leaflet-routing-machine-3.2.5/test/SpecRunner.html</key>
+		<data>
+		RuTBOW1t5diVZwPm3iQY5ZVmYnM=
+		</data>
+		<key>www/external/leaflet-routing-machine-3.2.5/test/lib/jasmine-2.0.0/boot.js</key>
+		<data>
+		oGq0Nj+dmZuyDNIVTj9Upk7P3mM=
+		</data>
+		<key>www/external/leaflet-routing-machine-3.2.5/test/lib/jasmine-2.0.0/console.js</key>
+		<data>
+		4cf39ETciWlAKmxRfGmMJlf4h4c=
+		</data>
+		<key>www/external/leaflet-routing-machine-3.2.5/test/lib/jasmine-2.0.0/jasmine-html.js</key>
+		<data>
+		Nz/n+3GhMsxhUYuIedYkziRACak=
+		</data>
+		<key>www/external/leaflet-routing-machine-3.2.5/test/lib/jasmine-2.0.0/jasmine.css</key>
+		<data>
+		nMujd1VBOGSqYH0jbrt2ph7fTA0=
+		</data>
+		<key>www/external/leaflet-routing-machine-3.2.5/test/lib/jasmine-2.0.0/jasmine.js</key>
+		<data>
+		3DeAxzyVmNUVp/GREHgULz9LAp4=
+		</data>
+		<key>www/external/leaflet-routing-machine-3.2.5/test/lib/jasmine-2.0.0/jasmine_favicon.png</key>
+		<data>
+		r6pN7jGCQMNTK9EQ2Xeznf5/Yjg=
+		</data>
+		<key>www/external/leaflet-routing-machine-3.2.5/test/spec/formatter-spec.js</key>
+		<data>
+		4vxXJ82t1ASJvN8R1gV4/rZC+Vs=
+		</data>
+		<key>www/external/leaflet-routing-machine-3.2.5/test/spec/osrmv1-spec.js</key>
+		<data>
+		ctYLDhrBwwaAo/9M2/jN82/VWXc=
+		</data>
 		<key>www/external/leaflet/images/layers-2x.png</key>
 		<data>
 		FSoWIzPkbST52J9WYxL8DGQBHe4=
@@ -3282,11 +3462,11 @@
 		</data>
 		<key>www/index.html</key>
 		<data>
-		78/6viQkPIJKo8lC+fMcV2KH84I=
+		KQcv4WdGzb3COHUwESHpjoMLaFc=
 		</data>
 		<key>www/js/index.js</key>
 		<data>
-		vUzprJABd/wA3GPFV1B0TsTZ2PQ=
+		7K3c1tAgxgS9eIyp7oeoSc9HmrA=
 		</data>
 		<key>www/plugins/cordova-plugin-device/www/device.js</key>
 		<data>
@@ -3539,11 +3719,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0tsKzHS7Dn8hfnsyQMUvSctPPRQ=
+			cZ40hflJeknizpjDdBUyblIew8Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			2mRrOF2m1l5asLZuvzOCqJ7vajjVl8XugoFL4kGgmrI=
+			k47cotb8XxF6wTQLKlT+sC+AQhM8SyV/I0T6lRh5ybQ=
 			</data>
 		</dict>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
@@ -3561,11 +3741,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			L2I14RAeW0/+GAMHvemXj08xHfc=
+			stjeRhk/qOjmO+6urI1zWj7dvzU=
 			</data>
 			<key>hash2</key>
 			<data>
-			AYd6PJ6sV4UiLAnfzlLMl6T6nWxfgahXs3RoeuZCd+g=
+			TMEP0v3cnLELsouwlXKU+Dlz8LqmineB8EUBPKSpRmY=
 			</data>
 		</dict>
 		<key>CDVNotification.bundle/beep.wav</key>
@@ -3737,11 +3917,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ToHp4fWpohZZ4gH7xK5jgY58fSU=
+			u9FQBPIBaeAxG9QGNFayi2cnPDQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			Vt9DK11X6ITTCuaJRPOy71F57n3n7sdMVy/N5UTf4qs=
+			FiuxWoQ4zTY8Grqp0AmBZUaHg3/BJERa3HFPg64Z6e8=
 			</data>
 		</dict>
 		<key>archived-expanded-entitlements.xcent</key>
@@ -12192,6 +12372,501 @@
 			Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=
 			</data>
 		</dict>
+		<key>www/external/leaflet-routing-machine-3.2.5/CHANGELOG.md</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Sa41DY05SKGGs+Wm4k+z6e32Ryg=
+			</data>
+			<key>hash2</key>
+			<data>
+			aMovsjxlpyHDJ+tcl34D9ZQxmNKpLtjmjeIPp80go5k=
+			</data>
+		</dict>
+		<key>www/external/leaflet-routing-machine-3.2.5/LICENSE.md</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			5n4hTdrupYUlj/W52MWKowl7OV8=
+			</data>
+			<key>hash2</key>
+			<data>
+			ZDPaIjspTpE45/J7cv590WU58YTOscOC+XlfUxQGItQ=
+			</data>
+		</dict>
+		<key>www/external/leaflet-routing-machine-3.2.5/README.md</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			FAUUChwu/VGm3Jsa2hoMrK9Xc6A=
+			</data>
+			<key>hash2</key>
+			<data>
+			goeiPgBq9XoegxehnAPhJmBN75L4DvztnV4jq258Iac=
+			</data>
+		</dict>
+		<key>www/external/leaflet-routing-machine-3.2.5/bower.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			QdbsZ/tgyTvff2sW5LM+SQLQrVk=
+			</data>
+			<key>hash2</key>
+			<data>
+			SW+WNmdpiMOLFDesZ5akzxYMZ2hh1Vj8jkCGUbDSDEc=
+			</data>
+		</dict>
+		<key>www/external/leaflet-routing-machine-3.2.5/dist/leaflet-routing-machine.css</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Y4Cq7Ti8jlVfK8R91QFOy3Pkn8Y=
+			</data>
+			<key>hash2</key>
+			<data>
+			cu3EeyAbdh7FZ58X4+oQz2g30Tw/U+3Utqmr1ETODqQ=
+			</data>
+		</dict>
+		<key>www/external/leaflet-routing-machine-3.2.5/dist/leaflet-routing-machine.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			4k3ygnozbxNQUBkzsJ590h8psMA=
+			</data>
+			<key>hash2</key>
+			<data>
+			7pNhlXv3pj6sp7CKS8bvCGVAfF9lEDQS/StzXxJqbc4=
+			</data>
+		</dict>
+		<key>www/external/leaflet-routing-machine-3.2.5/dist/leaflet-routing-machine.min.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			cak1XABs/U8uQKqyM4dPqfwQ9ho=
+			</data>
+			<key>hash2</key>
+			<data>
+			111yfuRpdrzHWYWgTrIB2vOc/TWd+SCOh9GS3ryvw2o=
+			</data>
+		</dict>
+		<key>www/external/leaflet-routing-machine-3.2.5/dist/leaflet.routing.icons.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			nZ9tPiwoLi8E0AfgZrDVLTMmbUk=
+			</data>
+			<key>hash2</key>
+			<data>
+			PPMeFBzluNxLX5SiWpvBZz9F3eXYC1NNnEXtdG1THwo=
+			</data>
+		</dict>
+		<key>www/external/leaflet-routing-machine-3.2.5/dist/leaflet.routing.icons.svg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			avfmB2dNZ6zMOKiR6yZKJPx4Mg8=
+			</data>
+			<key>hash2</key>
+			<data>
+			/BT3Zero3q49/88Y2hNn1Yxm9+8Dg2JJwTENN90mLew=
+			</data>
+		</dict>
+		<key>www/external/leaflet-routing-machine-3.2.5/dist/routing-icon.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			QVdDRKk1Zxs6IQx67daertO30oI=
+			</data>
+			<key>hash2</key>
+			<data>
+			dy00k4URvZhJiTgTfbxdAWrEikCKJZ4lRJz7S7mOp50=
+			</data>
+		</dict>
+		<key>www/external/leaflet-routing-machine-3.2.5/examples/Control.Geocoder.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			IoRS1YqnNhTZEgnhQ8JIGuSwfXc=
+			</data>
+			<key>hash2</key>
+			<data>
+			+SLb5ioD4/z7+k61+RqS9BxL/syFHi0kgKXE2nrl3Io=
+			</data>
+		</dict>
+		<key>www/external/leaflet-routing-machine-3.2.5/examples/config.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			5PulDbycaWCfok0mIdouJ8+Tpec=
+			</data>
+			<key>hash2</key>
+			<data>
+			ZyQtrrBHe/bmoaufMSUbjIICAPRXEdjkk7MwknDeSjk=
+			</data>
+		</dict>
+		<key>www/external/leaflet-routing-machine-3.2.5/examples/index.css</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			RD/NCd1UccyUgOoRf2XDd/gLhBM=
+			</data>
+			<key>hash2</key>
+			<data>
+			Fo7QVmUP3sC+0ZHnNl4wfBbBbnZB4HrY+eV5kpwrASM=
+			</data>
+		</dict>
+		<key>www/external/leaflet-routing-machine-3.2.5/examples/index.html</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			I1cZz72uJK+M8I57VCMAdkclJKg=
+			</data>
+			<key>hash2</key>
+			<data>
+			PldUdAbmr3GyqD1bEfkxBnXOGdrYPMlSa6L9FQunbaw=
+			</data>
+		</dict>
+		<key>www/external/leaflet-routing-machine-3.2.5/examples/index.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			lC+HkedKOKP5fpgOrsRrrSvhd7k=
+			</data>
+			<key>hash2</key>
+			<data>
+			wFAFHKQoi6/RlARhBsIIFZ3zl/8ZXT8ZsjHyZyd5ovQ=
+			</data>
+		</dict>
+		<key>www/external/leaflet-routing-machine-3.2.5/examples/localized.html</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			osVo5IB5f/1G1w8S9u+iNQ3PI4U=
+			</data>
+			<key>hash2</key>
+			<data>
+			YtfaSiq77AJvmhw4/f+rFy+OxcW8UTOtRfUJURYEcKc=
+			</data>
+		</dict>
+		<key>www/external/leaflet-routing-machine-3.2.5/examples/localized.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			b6tFNyMpZhuRtwyAaoGHTZbKPlI=
+			</data>
+			<key>hash2</key>
+			<data>
+			4SEAdYT1na5pyDPTKOTx6corCuTczIQfDSj8lqE+Dc0=
+			</data>
+		</dict>
+		<key>www/external/leaflet-routing-machine-3.2.5/examples/mapbox.html</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			tJhvrbR0lT7PduvGgJNEn5319Kg=
+			</data>
+			<key>hash2</key>
+			<data>
+			/vGsA7+Kt1Duqy9pYxszp8T3dhJKyE/p3RP3UUfZNRQ=
+			</data>
+		</dict>
+		<key>www/external/leaflet-routing-machine-3.2.5/examples/mapbox.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			4vPL+jOn+xqWWw0GljfckDmuwYc=
+			</data>
+			<key>hash2</key>
+			<data>
+			lFz0yoYvTBWFYH67uCG5ml5oDlq7/t53KKIe9pADEaA=
+			</data>
+		</dict>
+		<key>www/external/leaflet-routing-machine-3.2.5/package.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Gv/6LXlBzSGkva0I+REfhm54rlY=
+			</data>
+			<key>hash2</key>
+			<data>
+			j2236GdHHgUtVOKdJ++zg6m+e5Ww6cWESfwYjNylYew=
+			</data>
+		</dict>
+		<key>www/external/leaflet-routing-machine-3.2.5/scripts/publish.sh</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			9pBWnix3PA1GYxC+utmuhoyqR2k=
+			</data>
+			<key>hash2</key>
+			<data>
+			a1Ys8vaJzAXNl5EJjEldIFl6RVmcAlP3EsQ0qHvhgSY=
+			</data>
+		</dict>
+		<key>www/external/leaflet-routing-machine-3.2.5/src/autocomplete.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			RIRnPdGQnmSrBrUkZ2X5Bnr5v8Q=
+			</data>
+			<key>hash2</key>
+			<data>
+			WRXbxrWA7UBvA95ZHEu7Aam6PGf3qOWTmaOsIrb9PsY=
+			</data>
+		</dict>
+		<key>www/external/leaflet-routing-machine-3.2.5/src/control.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			fasmDmed5BbzrwkSrDsxoP1nhsc=
+			</data>
+			<key>hash2</key>
+			<data>
+			OoKWqxx4K916bGxLSLQ0f3mmbc7QrL3C8zfBenHC8Us=
+			</data>
+		</dict>
+		<key>www/external/leaflet-routing-machine-3.2.5/src/error-control.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			lhZjl1e0lE65u7QdKmZKMyvOQxA=
+			</data>
+			<key>hash2</key>
+			<data>
+			bAeg4BC8EHEFwsW69eY8aQwtvrmZWdD9nuNlbe4UP/4=
+			</data>
+		</dict>
+		<key>www/external/leaflet-routing-machine-3.2.5/src/formatter.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			mOPQ8yg5GN68x+MPpkUspHbnLEQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			b94V366zoILQogGj5z5zwRPT6SsSk0dpmYmwxfy0cKY=
+			</data>
+		</dict>
+		<key>www/external/leaflet-routing-machine-3.2.5/src/geocoder-element.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			2PYQ5zKQ26inpOmTN2Cek0dzQ30=
+			</data>
+			<key>hash2</key>
+			<data>
+			83xV2Jwf2gqrcJw5vbk2kO/WfCMm88IyQ01cZmWTA18=
+			</data>
+		</dict>
+		<key>www/external/leaflet-routing-machine-3.2.5/src/index.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Us7OzHsKr5bhSPPvi+ucg8gjPEw=
+			</data>
+			<key>hash2</key>
+			<data>
+			lU4yOO+Mihmy59yR6n2akdjDhpI/reaBeDSrRqy5FnU=
+			</data>
+		</dict>
+		<key>www/external/leaflet-routing-machine-3.2.5/src/itinerary-builder.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			oTbCTRg67u2ePT/JWpRgxPRUQys=
+			</data>
+			<key>hash2</key>
+			<data>
+			JZ/RQuv1nIdcSeQLsyd8EQqsujIeVe+fWH2wXAvKxSs=
+			</data>
+		</dict>
+		<key>www/external/leaflet-routing-machine-3.2.5/src/itinerary.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			euvbAd2DKkd2VEeeDi+sz3LBYzU=
+			</data>
+			<key>hash2</key>
+			<data>
+			3OVV0FrYeg+9YT19JO50J7x3B4IBge7CvhTjh2bT2Hs=
+			</data>
+		</dict>
+		<key>www/external/leaflet-routing-machine-3.2.5/src/line.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			+FhLd74+3HO+oVj0Hito92O5GyE=
+			</data>
+			<key>hash2</key>
+			<data>
+			+atHuD1WI/JoUHlTwWpFcUZcEeL/UduTnopqILPEGpA=
+			</data>
+		</dict>
+		<key>www/external/leaflet-routing-machine-3.2.5/src/localization.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			tTJY6JaSELdiQrL3z75oJYXeLCw=
+			</data>
+			<key>hash2</key>
+			<data>
+			P9O9QbGWlQIWaoxwof4JRtgKvKr4KTRlzYWVlT3NRlY=
+			</data>
+		</dict>
+		<key>www/external/leaflet-routing-machine-3.2.5/src/mapbox.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			j1kThBG/RXVhJJVRGFlDkGfpbhI=
+			</data>
+			<key>hash2</key>
+			<data>
+			ah3dOcNA2SRaVi8zlsJdWgyacqHy2m6I0Nata7ttxpo=
+			</data>
+		</dict>
+		<key>www/external/leaflet-routing-machine-3.2.5/src/osrm-v1.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			HXwnZeNAB5jaPsyUuGsijzyAMxo=
+			</data>
+			<key>hash2</key>
+			<data>
+			tHLb2Fdhr/JhT5w37HuHwLuUpbZNyhht8rtYTA5GDY0=
+			</data>
+		</dict>
+		<key>www/external/leaflet-routing-machine-3.2.5/src/osrm.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			2kfoBTJKwenTmWjKejlxFbNUaIA=
+			</data>
+			<key>hash2</key>
+			<data>
+			v25sggM/U7ubgPn5FMa/w/jkGZrxCLqSmmNISR84uqo=
+			</data>
+		</dict>
+		<key>www/external/leaflet-routing-machine-3.2.5/src/plan.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ZAqi7YbNzji0DcCIH2UTBklLL5Q=
+			</data>
+			<key>hash2</key>
+			<data>
+			bizBXm388otCWGGsSBIXabGLWrpd+enbxAQcimoBKzs=
+			</data>
+		</dict>
+		<key>www/external/leaflet-routing-machine-3.2.5/src/waypoint.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			a/eQEYHbmjL7Vk5ooVMvQNq8U6g=
+			</data>
+			<key>hash2</key>
+			<data>
+			D6dp4YPvn4U2jisyETNawycZm54ThBfvObH9X7JqWoA=
+			</data>
+		</dict>
+		<key>www/external/leaflet-routing-machine-3.2.5/test/SpecRunner.html</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			RuTBOW1t5diVZwPm3iQY5ZVmYnM=
+			</data>
+			<key>hash2</key>
+			<data>
+			xsRk4xSdkJY60BmyGpaGMWWmsGXVwpwg5UVgLsWMHRs=
+			</data>
+		</dict>
+		<key>www/external/leaflet-routing-machine-3.2.5/test/lib/jasmine-2.0.0/boot.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			oGq0Nj+dmZuyDNIVTj9Upk7P3mM=
+			</data>
+			<key>hash2</key>
+			<data>
+			BtOwD8IXRzCNHgh0cetKshQigKJA0/ywKfedwgNOmQc=
+			</data>
+		</dict>
+		<key>www/external/leaflet-routing-machine-3.2.5/test/lib/jasmine-2.0.0/console.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			4cf39ETciWlAKmxRfGmMJlf4h4c=
+			</data>
+			<key>hash2</key>
+			<data>
+			vlvouNzWkVRIb4DzYqoSeOoXcG6SkdmQ81zdlS99nxI=
+			</data>
+		</dict>
+		<key>www/external/leaflet-routing-machine-3.2.5/test/lib/jasmine-2.0.0/jasmine-html.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Nz/n+3GhMsxhUYuIedYkziRACak=
+			</data>
+			<key>hash2</key>
+			<data>
+			p9UqVTfnrgKtPxpf6m4OeByqT3BaaM6SpEFOSTUYe4s=
+			</data>
+		</dict>
+		<key>www/external/leaflet-routing-machine-3.2.5/test/lib/jasmine-2.0.0/jasmine.css</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			nMujd1VBOGSqYH0jbrt2ph7fTA0=
+			</data>
+			<key>hash2</key>
+			<data>
+			VSTZqXrXC/iJTOUtoGW5f7HQ2yMeABzwWq3fj0P1QqI=
+			</data>
+		</dict>
+		<key>www/external/leaflet-routing-machine-3.2.5/test/lib/jasmine-2.0.0/jasmine.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			3DeAxzyVmNUVp/GREHgULz9LAp4=
+			</data>
+			<key>hash2</key>
+			<data>
+			Z3NTTMFw0VvxjIPWMU3+AXEWk/4iq7In4D5eC7mrvSw=
+			</data>
+		</dict>
+		<key>www/external/leaflet-routing-machine-3.2.5/test/lib/jasmine-2.0.0/jasmine_favicon.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			r6pN7jGCQMNTK9EQ2Xeznf5/Yjg=
+			</data>
+			<key>hash2</key>
+			<data>
+			/LhEYkAGnsqZQkft5gHEfwjX/72WTdwVH8Ed7SeJXuM=
+			</data>
+		</dict>
+		<key>www/external/leaflet-routing-machine-3.2.5/test/spec/formatter-spec.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			4vxXJ82t1ASJvN8R1gV4/rZC+Vs=
+			</data>
+			<key>hash2</key>
+			<data>
+			b3iRdPoYpIOVm3gxTOkr7vT0GGSfB6Nh/Vsi3oFSCzU=
+			</data>
+		</dict>
+		<key>www/external/leaflet-routing-machine-3.2.5/test/spec/osrmv1-spec.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ctYLDhrBwwaAo/9M2/jN82/VWXc=
+			</data>
+			<key>hash2</key>
+			<data>
+			UzqpiNMK+m+LEupOChM4FgVibjBJDejvp7WlVJ8+lFE=
+			</data>
+		</dict>
 		<key>www/external/leaflet/images/layers-2x.png</key>
 		<dict>
 			<key>hash</key>
@@ -12306,22 +12981,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			78/6viQkPIJKo8lC+fMcV2KH84I=
+			KQcv4WdGzb3COHUwESHpjoMLaFc=
 			</data>
 			<key>hash2</key>
 			<data>
-			8yG2nYykhH9hTOMuz+BgdZyMggec0mH/H9SVkmtSyrk=
+			N3yUgwN2ryqVJWgXrarn2jzJcH1NiHvPWB/6H+EwIuc=
 			</data>
 		</dict>
 		<key>www/js/index.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vUzprJABd/wA3GPFV1B0TsTZ2PQ=
+			7K3c1tAgxgS9eIyp7oeoSc9HmrA=
 			</data>
 			<key>hash2</key>
 			<data>
-			Fbu1cpnKdppb3919/ltkrLC0iuVKBN47AiErVEC8FuE=
+			k9sZTOvCgSrNpQwb6DjpQDpjyqlhEMDC/AMlh5Xq/lI=
 			</data>
 		</dict>
 		<key>www/plugins/cordova-plugin-device/www/device.js</key>

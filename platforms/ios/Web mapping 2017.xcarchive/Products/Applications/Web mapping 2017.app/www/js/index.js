@@ -147,6 +147,10 @@ function getCurrentlocation() {
 }
 
 function getStopLocations() {
+    //remove
+    map.remove();
+    makeBasicMap();
+    setMapToCurrentLocation();
     $.ajax({
         type: "GET",
         headers: {"Authorization": localStorage.authtoken},
@@ -169,7 +173,7 @@ function getStopLocations() {
                     stopInfo += ",";
                 }
             }
-            stopInfo += "</b><br> <button onclick=getStopSchedule("+ id +")>Get Timetable</button>";
+            stopInfo += "</b><br> <button onclick=getStopSchedule("+ id +")>Show Timetable</button> <br> <button onclick=getDirections("+ lat + "," + long +")>Get Directions</button>";
             
             L.marker(latLng).addTo(map).bindPopup(stopInfo);
         }
@@ -179,6 +183,7 @@ function getStopLocations() {
 }
 
 function getStopSchedule(stopId) {
+    
     $.ajax({
         type: "GET",
         headers: {"Authorization": localStorage.authtoken},
@@ -204,6 +209,25 @@ function getStopSchedule(stopId) {
         $(".sp-username").html("");
     });
 
+}
+
+function getDirections(lat, long) {
+    var busLatLong = L.latLng(lat, long);
+    var myPos = JSON.parse(localStorage.lastKnownCurrentPosition);
+    var myLatLong = L.latLng(myPos.coords.latitude, myPos.coords.longitude);
+    
+
+    //remove markers
+    map.remove();
+    makeBasicMap();
+    
+    L.Routing.control({
+        waypoints: [
+            L.latLng(myPos.coords.latitude, myPos.coords.longitude),
+            L.latLng(lat, long)
+        ],
+        routeWhileDragging: true
+    }).addTo(map);
 }
 
 function calculateDueTime(minutes) {
