@@ -20,6 +20,9 @@ function onDeviceReady() {
 
     $("#btn-login").on("touchstart", loginPressed);
     $("#sp-logout").on("touchstart", logoutPressed);
+    $("#btn-signup").on("touchstart", signupPressed);
+    $("#btn-cancel").on("touchstart", signupCancel);
+    
 
     if (localStorage.lastUserName && localStorage.lastUserPwd) {
         $("#in-username").val(localStorage.lastUserName);
@@ -64,6 +67,14 @@ function onDeviceReady() {
     } else {
         $.mobile.navigate("#login-page");
     }
+}
+
+function signupPressed() {
+    $.mobile.navigate("#signup-page");
+}
+
+function signupCancel() {
+    $.mobile.navigate("#login-page");
 }
 
 function loginPressed() {
@@ -122,7 +133,7 @@ function getCurrentlocation() {
             localStorage.lastKnownCurrentPosition = JSON.stringify(myPos);
 
             setMapToCurrentLocation();
-            updatePosition();
+            //updatePosition();
 
         },
         function (err) {
@@ -188,7 +199,7 @@ function getStopSchedule(stopId) {
             stopInfo += "Route: " + route + " (" + destination + ") Time: " + calculateDueTime(duetime);
             stopInfo += "\n";
         }
-        showAlert(stopInfo, "Schedule")
+        showAlert(stopInfo, "Bus Timetable")
     }).fail(function (xhr, status, error) {
         $(".sp-username").html("");
     });

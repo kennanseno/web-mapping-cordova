@@ -72,13 +72,13 @@
                         <span class="fa fa-crosshairs fa-3x" style="color:deepskyblue"></span>
                     </a>
                 </td>
-                <td style="text-align: left; vertical-align: middle; width: 10%">
-                    <a id="get-buslocations" class="ui-btn-mini ui-btn-inline">
-                        <span class="fa fa-crosshairs fa-3x" style="color:deepskyblue"></span>
+                <td></td>
+                <td></td>
+                <td style="text-align: right; vertical-align: middle; width: 10%">
+                    <a id="get-buslocations" class="ui-btn-mini ui-btn-inline" style="color: black;">
+                        <span class="fa fa-map fa-2x" style="color:black;"></span>Show Stops
                     </a>
                 </td>
-                <td></td>
-                <td></td>
             </tr>
         </table>
         <span id="leaflet-copyright" style="font-size: small"></span>
@@ -102,6 +102,34 @@
             <button id="btn-login" type="button" class="ui-btn ui-corner-all live-button"
                     style="background-color: #669966; color: white;">
                 <span class="fa fa-sign-in fa-lg"></span> Login
+            </button>
+            <button id="btn-signup" type="button" class="ui-btn ui-corner-all live-button"
+                style="background-color: #CD5C5C; color: white;"> Sign up
+            </button>
+        </form>
+    </div>
+</div>
+
+<div data-role="page" data-dialog="true" data-close-btn="none" style="background-color: white" id="signup-page">
+    <div data-role="header" style="text-align: center; background-color: silver">
+        <span style="font-size: x-large">Register Account</span>
+    </div>
+    
+    <div data-role="main" class="ui-content"
+        style="align-content: center; background-color: white">
+        <form role="form">
+            <div class="ui-field-contain">
+                <label id="label-in-username" for="in-username"><span class="fa fa-user fa-fw"></span></label>
+                <input type="text" class="form-control" id="in-username" placeholder="Username">
+                    <label id="label-in-password" for="in-password"><span class="fa fa-lock fa-fw"></span></label>
+                    <input type="password" class="form-control" id="in-password" placeholder="Password">
+                        </div>
+            <button id="btn-register" type="button" class="ui-btn ui-corner-all live-button"
+                style="background-color: #669966; color: white;">
+                <span class="fa fa-sign-in fa-lg"></span> Register
+            </button>
+            <button id="btn-cancel" type="button" class="ui-btn ui-corner-all live-button"
+                style="background-color: #d0d3d4; color: #17202a;"> Cancel
             </button>
         </form>
     </div>
