@@ -2,6 +2,7 @@ var HOST = "http://kennanseno.com:8000";
 
 var URLS = {
     getStops: "/rest/busStops/",
+    getSchedule: "/rest/stopSchedule/",
     login: "/rest/tokenlogin/",
     userme: "/rest/userme/",
     updateposition: "/rest/updateposition/"
@@ -20,10 +21,10 @@ function onDeviceReady() {
     $("#btn-login").on("touchstart", loginPressed);
     $("#sp-logout").on("touchstart", logoutPressed);
 
-//    if (localStorage.lastUserName && localStorage.lastUserPwd) {
-//        $("#in-username").val(localStorage.lastUserName);
-//        $("#in-password").val(localStorage.lastUserPwd);
-//    }
+    if (localStorage.lastUserName && localStorage.lastUserPwd) {
+        $("#in-username").val(localStorage.lastUserName);
+        $("#in-password").val(localStorage.lastUserPwd);
+    }
 
     $(document).on("pagecreate", "#map-page", function (event) {
         console.log("In pagecreate. Target is " + event.target.id + ".");
@@ -157,13 +158,51 @@ function getStopLocations() {
                     stopInfo += ",";
                 }
             }
-            stopInfo += "</b>";
+            stopInfo += "</b><br> <button onclick=getStopSchedule("+ id +")>Get Timetable</button>";
             
             L.marker(latLng).addTo(map).bindPopup(stopInfo);
         }
     }).fail(function (xhr, status, error) {
         $(".sp-username").html("");
     });
+}
+
+function getStopSchedule(stopId) {
+    $.ajax({
+        type: "GET",
+        headers: {"Authorization": localStorage.authtoken},
+        url: HOST + URLS["getSchedule"],
+        data: {
+           stopid: stopId
+        }
+    }).done(function (data, status, xhr) {
+        var data = JSON.parse(data.data);
+        var schedules = data.results;
+        var stopInfo = "";
+        for (var count = 0; count < schedules.length; count++){
+            var origin = schedules[count].origin;
+            var destination = schedules[count].destination;
+            var route = schedules[count].route;
+            var duetime = schedules[count].duetime;
+            
+            stopInfo += "Route: " + route + " (" + destination + ") Time: " + calculateDueTime(duetime);
+            stopInfo += "\n";
+        }
+        showAlert(stopInfo, "Schedule")
+    }).fail(function (xhr, status, error) {
+        $(".sp-username").html("");
+    });
+
+}
+
+function calculateDueTime(minutes) {
+    var time = parseInt(minutes);
+    var timeLabel = "mins";
+    if(time >= 60) {
+        time = time/60;
+        timeLabel = "hr";
+    }
+    return time.toString() + timeLabel;
 }
 
 function setMapToCurrentLocation() {
