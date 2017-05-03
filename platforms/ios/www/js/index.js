@@ -5,10 +5,19 @@ var URLS = {
     getSchedule: "/rest/stopSchedule/",
     login: "/rest/tokenlogin/",
     userme: "/rest/userme/",
-    updateposition: "/rest/updateposition/"
+    updateposition: "/rest/updateposition/",
+    signup: "/rest/signup/"
 };
 
 var map;
+
+var myIcon = L.ExtraMarkers.icon({
+    icon: 'fa-crosshairs',
+    iconColor: 'white',
+    markerColor: 'red',
+    shape: 'square',
+    prefix: 'fa'
+});
 
 function onLoad() {
     console.log("In onLoad.");
@@ -20,6 +29,7 @@ function onDeviceReady() {
 
     $("#btn-login").on("touchstart", loginPressed);
     $("#sp-logout").on("touchstart", logoutPressed);
+    $("#btn-register").on("touchstart", registerUser);
     $("#btn-signup").on("touchstart", signupPressed);
     $("#btn-cancel").on("touchstart", signupCancel);
     
@@ -48,9 +58,6 @@ function onDeviceReady() {
 
     $(document).on("pageshow", function (event) {
         console.log("In pageshow. Target is " + event.target.id + ".");
-        if (!localStorage.authtoken) {
-            $.mobile.navigate("#login-page");
-        }
         setUserName();
     });
 
@@ -103,6 +110,33 @@ function loginPressed() {
     });
 }
 
+function registerUser() {
+    $.ajax({
+        type: "GET",
+        url: HOST + URLS["signup"],
+        data: {
+           username: $("#signup-username").val(),
+           password: $("#signup-password").val(),
+           firstname: $("#signup-firstname").val(),
+           lastname: $("#signup-lastname").val(),
+           email: $("#signup-email").val()
+        }
+    }).done(function (data, status, xhr) {
+        localStorage.authtoken = localStorage.authtoken = "Token " + xhr.responseJSON.token;
+        localStorage.lastUserName = $("#in-username").val();
+        localStorage.lastUserPwd = $("#in-password").val();
+            
+        $.mobile.navigate("#map-page");
+    }).fail(function (xhr, status, error) {
+        var message = "";
+        if ((!xhr.status) && (!navigator.onLine)) {
+            message += "Bad Internet Connection\n";
+        }
+        message += xhr.responseJSON.detail;
+        showAlert(message, "Registration failed!");
+    });
+}
+
 function logoutPressed() {
     console.log("In logoutPressed.");
     localStorage.removeItem("authtoken");
@@ -117,6 +151,9 @@ function logoutPressed() {
      });
 }
 
+/**
+ Function for alertbox
+ */
 function showAlert(message, title) {
     navigator.notification.alert(message, null, title, "OK");
 }
@@ -146,11 +183,13 @@ function getCurrentlocation() {
     );
 }
 
+
 function getStopLocations() {
-    //remove
+    //remove and refresh markers
     map.remove();
     makeBasicMap();
     setMapToCurrentLocation();
+  
     $.ajax({
         type: "GET",
         headers: {"Authorization": localStorage.authtoken},
@@ -165,6 +204,7 @@ function getStopLocations() {
             var long = stops[count].longitude;
             var latLng = L.latLng(lat, long);
             
+            //add stop informations
             var stopInfo = "id: <b>" + id + "</b><br>" + "Name: <b>" + name + "</b><br>Routes: <b>";
             var busRoutes = stops[count].operators[0].routes;
             for (var index = 0; index < busRoutes.length; index++){
@@ -182,8 +222,11 @@ function getStopLocations() {
     });
 }
 
+/**
+ Function to get Timetable of a stop using the stop id
+ and display in the alertbox
+ */
 function getStopSchedule(stopId) {
-    
     $.ajax({
         type: "GET",
         headers: {"Authorization": localStorage.authtoken},
@@ -211,11 +254,13 @@ function getStopSchedule(stopId) {
 
 }
 
+/**
+ Display direction from current user location and the selected bus stop
+ */
 function getDirections(lat, long) {
     var busLatLong = L.latLng(lat, long);
     var myPos = JSON.parse(localStorage.lastKnownCurrentPosition);
     var myLatLong = L.latLng(myPos.coords.latitude, myPos.coords.longitude);
-    
 
     //remove markers
     map.remove();
@@ -230,6 +275,9 @@ function getDirections(lat, long) {
     }).addTo(map);
 }
 
+/**
+ Function to change time to current label
+ */
 function calculateDueTime(minutes) {
     var time = parseInt(minutes);
     var timeLabel = "mins";
@@ -245,8 +293,8 @@ function setMapToCurrentLocation() {
     if (localStorage.lastKnownCurrentPosition) {
         var myPos = JSON.parse(localStorage.lastKnownCurrentPosition);
         var myLatLon = L.latLng(myPos.coords.latitude, myPos.coords.longitude);
-        L.marker(myLatLon).addTo(map);
-        map.flyTo(myLatLon, 15);
+        L.marker(myLatLon, {icon: myIcon}).addTo(map);
+        map.flyTo(myLatLon, 13);
     }
 }
 
