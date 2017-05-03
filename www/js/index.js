@@ -84,6 +84,9 @@ function signupCancel() {
     $.mobile.navigate("#login-page");
 }
 
+/**
+ Function to login user to the application
+ */
 function loginPressed() {
     console.log("In loginPressed.");
     $.ajax({
@@ -110,6 +113,9 @@ function loginPressed() {
     });
 }
 
+/**
+ Function to register new user
+ */
 function registerUser() {
     $.ajax({
         type: "GET",
@@ -137,6 +143,9 @@ function registerUser() {
     });
 }
 
+/**
+ Function to logout user and remove user data in local storage
+ */
 function logoutPressed() {
     console.log("In logoutPressed.");
     localStorage.removeItem("authtoken");
